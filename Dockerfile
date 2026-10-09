@@ -19,7 +19,7 @@ COPY dashboard/ ./dashboard/
 COPY scripts/ ./scripts/
 COPY tests/ ./tests/
 COPY docs/ ./docs/
-COPY pytest.ini README.md .
+COPY pytest.ini README.md ./
 
 RUN mkdir -p data/raw data/processed data/synthetic data/validation models reports
 

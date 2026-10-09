@@ -1,0 +1,198 @@
+{
+  "psi_frequency": {
+    "psi_value": 0.0659,
+    "status": "STABLE"
+  },
+  "psi_customer_tenure_days": {
+    "psi_value": 0.4186,
+    "status": "SIGNIFICANT_DRIFT"
+  },
+  "psi_total_revenue": {
+    "psi_value": 0.0327,
+    "status": "STABLE"
+  },
+  "psi_average_order_value": {
+    "psi_value": 0.0038,
+    "status": "STABLE"
+  },
+  "psi_clv_expected": {
+    "psi_value": 0.1288,
+    "status": "MODERATE_DRIFT"
+  },
+  "segment_population_drift": [
+    {
+      "segment": "Champions / High Value Active",
+      "baseline_pct": 20.86,
+      "target_pct": 23.7,
+      "drift_pct_points": 2.84
+    },
+    {
+      "segment": "Dormant",
+      "baseline_pct": 27.69,
+      "target_pct": 6.57,
+      "drift_pct_points": -21.12
+    },
+    {
+      "segment": "Growing Customer",
+      "baseline_pct": 18.54,
+      "target_pct": 0.0,
+      "drift_pct_points": -18.54
+    },
+    {
+      "segment": "High Value At Risk",
+      "baseline_pct": 2.11,
+      "target_pct": 0.0,
+      "drift_pct_points": -2.11
+    },
+    {
+      "segment": "Low Value Active",
+      "baseline_pct": 4.27,
+      "target_pct": 24.89,
+      "drift_pct_points": 20.62
+    },
+    {
+      "segment": "Loyal Mid Value",
+      "baseline_pct": 6.36,
+      "target_pct": 39.19,
+      "drift_pct_points": 32.83
+    },
+    {
+      "segment": "New Customer",
+      "baseline_pct": 13.6,
+      "target_pct": 5.65,
+      "drift_pct_points": -7.95
+    },
+    {
+      "segment": "Reactivation Candidate",
+      "baseline_pct": 6.57,
+      "target_pct": 0.0,
+      "drift_pct_points": -6.57
+    }
+  ],
+  "overall_health": {
+    "max_psi": 0.4186,
+    "overall_status": "ALERT"
+  },
+  "segment_stability": {
+    "evaluated_customers": 4309,
+    "agreement_rate": 0.2597,
+    "agreement_rate_pct": 25.97,
+    "transition_matrix": [
+      {
+        "action_segment": "Champions / High Value Active",
+        "Champions / High Value Active": 0.8409,
+        "Dormant": 0.0022,
+        "Low Value Active": 0.0,
+        "Loyal Mid Value": 0.1568
+      },
+      {
+        "action_segment": "Dormant",
+        "Champions / High Value Active": 0.0159,
+        "Dormant": 0.0193,
+        "Low Value Active": 0.6873,
+        "Loyal Mid Value": 0.2775
+      },
+      {
+        "action_segment": "Growing Customer",
+        "Champions / High Value Active": 0.1452,
+        "Dormant": 0.0,
+        "Low Value Active": 0.0088,
+        "Loyal Mid Value": 0.8461
+      },
+      {
+        "action_segment": "High Value At Risk",
+        "Champions / High Value Active": 0.6923,
+        "Dormant": 0.022,
+        "Low Value Active": 0.0,
+        "Loyal Mid Value": 0.2857
+      },
+      {
+        "action_segment": "Low Value Active",
+        "Champions / High Value Active": 0.0163,
+        "Dormant": 0.0,
+        "Low Value Active": 0.5924,
+        "Loyal Mid Value": 0.3913
+      },
+      {
+        "action_segment": "Loyal Mid Value",
+        "Champions / High Value Active": 0.0474,
+        "Dormant": 0.0,
+        "Low Value Active": 0.1095,
+        "Loyal Mid Value": 0.8431
+      },
+      {
+        "action_segment": "New Customer",
+        "Champions / High Value Active": 0.0819,
+        "Dormant": 0.0751,
+        "Low Value Active": 0.4454,
+        "Loyal Mid Value": 0.3976
+      },
+      {
+        "action_segment": "Reactivation Candidate",
+        "Champions / High Value Active": 0.0954,
+        "Dormant": 0.0777,
+        "Low Value Active": 0.0671,
+        "Loyal Mid Value": 0.7597
+      }
+    ],
+    "transition_counts": [
+      {
+        "action_segment": "Champions / High Value Active",
+        "Champions / High Value Active": 756,
+        "Dormant": 2,
+        "Low Value Active": 0,
+        "Loyal Mid Value": 141
+      },
+      {
+        "action_segment": "Dormant",
+        "Champions / High Value Active": 19,
+        "Dormant": 23,
+        "Low Value Active": 820,
+        "Loyal Mid Value": 331
+      },
+      {
+        "action_segment": "Growing Customer",
+        "Champions / High Value Active": 116,
+        "Dormant": 0,
+        "Low Value Active": 7,
+        "Loyal Mid Value": 676
+      },
+      {
+        "action_segment": "High Value At Risk",
+        "Champions / High Value Active": 63,
+        "Dormant": 2,
+        "Low Value Active": 0,
+        "Loyal Mid Value": 26
+      },
+      {
+        "action_segment": "Low Value Active",
+        "Champions / High Value Active": 3,
+        "Dormant": 0,
+        "Low Value Active": 109,
+        "Loyal Mid Value": 72
+      },
+      {
+        "action_segment": "Loyal Mid Value",
+        "Champions / High Value Active": 13,
+        "Dormant": 0,
+        "Low Value Active": 30,
+        "Loyal Mid Value": 231
+      },
+      {
+        "action_segment": "New Customer",
+        "Champions / High Value Active": 48,
+        "Dormant": 44,
+        "Low Value Active": 261,
+        "Loyal Mid Value": 233
+      },
+      {
+        "action_segment": "Reactivation Candidate",
+        "Champions / High Value Active": 27,
+        "Dormant": 22,
+        "Low Value Active": 19,
+        "Loyal Mid Value": 215
+      }
+    ],
+    "method": "Row-normalized customer segment transition matrix"
+  }
+}
